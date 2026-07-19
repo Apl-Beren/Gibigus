@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://fatbqjwln2nn"]
+
+[ext_resource type="Script" uid="uid://bbmldyfnpryqx" path="res://Mapgen.cs" id="1_3toqu"]
+
+[node name="Mapgen" type="Node2D" unique_id=347787972]
+script = ExtResource("1_3toqu")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=571071728]
+offset_right = 157.0
+offset_bottom = 76.0
+color = Color(0, 0.5131021, 0.51346207, 1)

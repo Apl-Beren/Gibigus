@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c83tstxoqtqw8"]
+
+[ext_resource type="Texture2D" uid="uid://cp0g5jfayx3y7" path="res://assets and objects/forest1.png" id="1_byqjk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xrivr"]
+size = Vector2(32, 32)
+
+[node name="Node2D" type="Node2D" unique_id=643635372]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=770251227]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=238284158]
+shape = SubResource("RectangleShape2D_xrivr")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=1715397458]
+texture_filter = 3
+texture = ExtResource("1_byqjk")
