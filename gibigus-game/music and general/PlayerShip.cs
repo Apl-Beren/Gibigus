@@ -3,11 +3,11 @@ using Godot;
 public partial class PlayerShip : CharacterBody2D
 {
 	[Export]
-	public float Speed = 250f;
+	public float Speed = 250f; // ship speed in pixels per second
 
-	private Vector2 targetPosition;
+	private Vector2 targetPosition; // target position for the ship to move towards
 
-	public override void _Ready()
+	public override void _Ready() 
 	{
 		targetPosition = GlobalPosition;
 	}
