@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://c4mekh3xkfb6x"]
+
+[ext_resource type="Script" uid="uid://owqbh11rg7rj" path="res://music and general/PlayerShip.cs" id="1_raoef"]
+[ext_resource type="Texture2D" uid="uid://cinnfkqmkyfim" path="res://assets and objects/ship_sprite.png" id="2_mwt7w"]
+
+[node name="PlayerShip" type="CharacterBody2D" unique_id=638107397]
+script = ExtResource("1_raoef")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1679465567]
+texture = ExtResource("2_mwt7w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1687548671]
