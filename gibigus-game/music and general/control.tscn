@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://lae70pgrenyv"]
+
+[node name="control" type="Node"]
+
+[node name="UImanager" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Host" type="Button" parent="UImanager"]
+layout_mode = 2
+
+[node name="Join" type="Button" parent="UImanager"]
+layout_mode = 2
+
+[node name="IPaddress" type="LineEdit" parent="UImanager"]
+layout_mode = 2
