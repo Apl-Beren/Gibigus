@@ -1,16 +1,22 @@
 [gd_scene format=3 uid="uid://lae70pgrenyv"]
 
-[node name="control" type="Node"]
+[ext_resource type="Script" uid="uid://6v1lnaohjfm3" path="res://music and general/Control.cs" id="1_dntih"]
 
-[node name="UImanager" type="VBoxContainer" parent="."]
+[node name="control" type="Control" unique_id=456183820]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_dntih")
+
+[node name="UImanager" type="VBoxContainer" parent="." unique_id=745999565]
+layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Host" type="Button" parent="UImanager"]
+[node name="Host" type="Button" parent="UImanager" unique_id=793113895]
 layout_mode = 2
 
-[node name="Join" type="Button" parent="UImanager"]
+[node name="Join" type="Button" parent="UImanager" unique_id=1152062288]
 layout_mode = 2
 
-[node name="IPaddress" type="LineEdit" parent="UImanager"]
+[node name="IPaddress" type="LineEdit" parent="UImanager" unique_id=408936429]
 layout_mode = 2
