@@ -19,6 +19,10 @@ run/main_scene="uid://c4mekh3xkfb6x"
 config/features=PackedStringArray("4.7", "C#", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameSettings="*uid://d0s2jc20lc3m1"
+
 [dotnet]
 
 project/assembly_name="Gibigus-Game"
